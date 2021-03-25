@@ -87,7 +87,7 @@ gulp.task('taskLambdaLayer', function (done) {
   done()
 })
 
-gulp.task('hello', function() {
+gulp.task('hello', async function() {
   console.log('Hello, World!');
 })
 
