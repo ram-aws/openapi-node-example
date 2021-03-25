@@ -89,7 +89,7 @@ gulp.task('taskLambdaLayer', function (done) {
 
 gulp.task('hello', function() {
   console.log('Hello, World!');
-});
+})
 
 exports.build = gulp.task('update',
   gulp.series(
