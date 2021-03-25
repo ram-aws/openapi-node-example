@@ -87,6 +87,10 @@ gulp.task('taskLambdaLayer', function (done) {
   done()
 })
 
+gulp.task('hello', function() {
+  console.log('Hello, World!');
+});
+
 exports.build = gulp.task('update',
   gulp.series(
     gulp.task('clean-project-layer'),
